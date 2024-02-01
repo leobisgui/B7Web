@@ -1,0 +1,55 @@
+h4
+    {color: aquamarine;
+    font-size: xx-large;
+    }
+
+#titulo-externo
+    {color: green;}
+
+#titulo-background
+    {background-color: rgb(70, 150, 153);
+    color: #fff423;
+    }
+    
+.paragrafo-externo
+    {color: blueviolet;}
+
+#titulo, .titulo
+    {color: chocolate;
+    font-family: fantasy;}
+
+#paragrafo-borda
+    {border-bottom:5px solid red;
+    color: blue}
+
+#paragrafo-pontilhado
+    {border-left:5px dotted red;}
+
+#paragrafo-traco
+    {border-right:5px dashed red;}
+
+#paragrafo-doistraco
+    {border:5px double red;}
+
+#paragrafo-redondo
+    {background-color: blue;
+    border-radius:5px;
+    }
+    
+div
+    {background-color: blue;
+    border-radius: 100px;
+    border: 3px solid darkcyan;
+    width: 200px;
+    height: 200px;}
+
+#menor
+    {background-color: red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    }
+
+ul li
+    {color: crimson;}
