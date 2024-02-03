@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Página de Teste </title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+<h1>Página de teste!</h1>
+    <h2>Área de cadastro</h2>
+        <form action="C:\Users\leobi\Desktop\Projetos estudos B7WEB\estudo-formulário\login.html" method="get">
+         <label>
+            Nome completo:<br/>
+            <input type="text" name="nome"/>
+         </label>   
+
+         <label>
+            <input type="checkbox">
+            Eu declaro que li e aceito os <a href="C:\Users\leobi\Desktop\Projetos estudos B7WEB\estudo-formulário\termos.html" target="_blank" class="termoslink">termos de uso.</a>
+         </label>
+
+         <label>
+            Descrição:<br/>
+            <textarea name="descricao"></textarea>
+         </label>
+
+        <label>
+            Categoria:<br/>
+            <select name="categoria">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </label>
+         <button>Fazer cadastro</button>
+        </form>
+<br/><br/>
+        <form method="post" action="C:\Users\leobi\Desktop\Projetos estudos B7WEB\estudo-formulário\login.html" enctype="multipart/form-data">
+            <input type="hidden" name="country" value="br"/>
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br/>
+                <input
+                type="text" 
+                name="name" 
+                required 
+                minlength="2" 
+                maxlength="20"/>
+            </label>   
+
+            <label>
+                Sobrenome:<br/>
+                <input 
+                type="text" 
+                name="lastname" 
+                required 
+                minlength="2" 
+                maxlength="40"/>
+            </label> 
+            <label>
+                Idade:<br/>
+                <input type="number" 
+                name="age"
+                step="1"
+                min="18"/>
+            </label>
+            <label>
+                Idade (data):<br/>
+                <input 
+                type="date" 
+                name="birthdate"
+                min="2024-02-03"/>
+            </label>
+            <label>
+                Foto:<br/>
+                <input 
+                type="file" 
+                name="photo"
+                accept="image/"/>
+            </label>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br/>
+                <input type="text" name="companyname"/>
+            </label>
+            <label>
+                Cargo na empresa:<br/>
+                <input type="text" name="companyjobtitle"/>
+            </label> 
+            <label>
+                Email:<br/>
+                <input 
+                type="text" 
+                name="Email"
+                required
+                pattern="[^ @]*@[^ @]*" title="Endereço de email"/>
+            </label> 
+            </fieldset>
+            <input type="submit" value="Cadastrar"/>
+        </form>
+
+
+
+</body>
+</html>
