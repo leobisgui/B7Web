@@ -1,0 +1,82 @@
+*{box-sizing: border-box;}
+body{margin: 0px; font-size: 20px; font-family: 'Courier New', Courier, monospace;}
+div{color: blueviolet;}
+h1{font-size: 3rem;}
+
+.conteiner{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #CCC;
+    color: red;
+    border: 2px solid black;
+}
+
+.conteiner strong {
+    color: blue;
+    font-size: large;
+    border: 2px solid red;
+}
+
+.quadrado{
+    background-color: black;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.box{
+    font-size: 2rem;
+}
+
+.box-interno{
+    background-color: #CCC;
+    width: 10rem;
+    height: 10rem;
+}
+
+.box-porcentagem{
+    background-color: #999;
+    width: 50%;
+    height: 400px;
+}
+
+.box-porcentagem-interno{
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+}
+
+.box-porcentagem1{
+    background-color: #999;
+    width: 300px;
+}
+
+.box-porcentagem-interno1{
+    background-color: #333;
+    color: white;
+    width: 20ch;
+}
+
+.box-relativa{
+    background-color: #999;
+    height: 100vh;
+    width: 50vw;
+}
+
+.box-relativa1{
+    background-color: #333;
+}
+
+
+.box-relativa1{
+    background-color: #999;
+    height: 50vmin;
+}
+
+.box-relativa2{
+    background-color: #333;
+}
+
+
+
+

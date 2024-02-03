@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+body{margin: 0px; background-color: currentColor ;}
+h1{font-size: 30px; color: cadetblue;}
+
+.box{
+    font-size: 15px;
+    color: blue;
+}
+
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}
+
