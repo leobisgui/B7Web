@@ -1,0 +1,33 @@
+* {box-sizing: border-box;}
+body {margin: 0px;}
+
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+.image2{
+    width: 400px;
+    height: 400px;
+    object-fit: inherit;
+}
+
+.image3{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.image4{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.image5{
+    width: 400px;
+    height: 400px;
+    object-fit: none;
+}
+
