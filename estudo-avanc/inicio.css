@@ -1,0 +1,12 @@
+*{box-sizing: border-box;}
+body{margin: 0px;}
+
+footer{
+    height: 100px;
+    background-color: #CCC;
+}
+
+nav{
+    height: 50px;
+    background-color: #999;
+}
