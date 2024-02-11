@@ -10,3 +10,72 @@ nav{
     height: 50px;
     background-color: #999;
 }
+
+zago{
+    background-color: black;
+    font-size: x-large;
+    color: aquamarine;
+}
+
+form{
+    width: 230px;
+    height: 210px;
+    background-color: #ddd;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input{
+    padding: 5px;
+    font-size: 13px;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+    }
+
+#page-wrap{
+    margin: 0 auto; 
+    width: 200px;
+    height: 400px;
+    background: #000000;
+        }
+
+#sidebar{
+    margin: 0 auto; 
+    width: 200px;
+    height: 400px;
+    background: #ff0000;    
+    }
+
+#other{
+margin: 0 auto; 
+width: 200px;
+height: 400px;
+background: #ff00ff;
+}
+
+.border{
+    background-color: green;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 200px;
+    width: 500px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    background:linear-gradient(-75deg,white, blue, red);
+    background:-moz-linear-gradient(-75deg,white, blue, red);
+    background:-o-linear-gradient(-75deg,white, blue, red);
+    background:-webkit-linear-gradient(-75deg,white, blue, red);
+}
