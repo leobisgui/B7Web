@@ -79,3 +79,68 @@ background: #ff00ff;
     background:-o-linear-gradient(-75deg,white, blue, red);
     background:-webkit-linear-gradient(-75deg,white, blue, red);
 }
+
+.animation{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position:absolute;
+    animation-name:animation;
+    animation-duration:5s;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animation {
+    0% {background-color: red;top:0;left:0;}
+    20%{background-color: yellow;top:0;left:200;}
+    40%{background-color: aqua;top:200;left:200;}
+    60%{background-color: #ff00ff;top:0;left:0;}
+    80%{background-color: #ccc;}
+    100%{background-color: #ddd;}
+}
+
+.smoke{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin:auto;
+    margin-top:auto;
+    box-shadow:10px 10px 5px black;
+    border-radius: 100px;
+}
+
+.smoketext{
+    color: #ff0000;
+    text-shadow: 2px 2px 3px black;
+    position: absolute;
+}
+
+.transition{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin:auto;
+    transition:all 1s linear;
+}
+
+.transition:hover{
+    width: 400px;
+    background-color: #999;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: #ff0000;
+    transition:all 2s linear;
+}
+
+.wordwrap{
+    width: 150px;
+    height: 200px;
+    border:1px solid black;
+    word-wrap:break-word;
+}
