@@ -1,0 +1,27 @@
+.container8{
+    display:flex;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.div10{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align: center;
+    font-size: x-large;
+    align-self: flex-start;
+}
+
+.box5{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align: center;
+    font-size: x-large;
+}

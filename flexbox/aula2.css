@@ -35,6 +35,15 @@
     font-size: x-large;
 }
 
+.box5{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align: center;
+    font-size: x-large;
+}
+
 .boxspace{
     width:100px;
     height:100px;
@@ -108,4 +117,66 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
+}
+
+.container8{
+    display:flex;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.div10{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align: center;
+    font-size: x-large;
+    align-self: flex-start;
+}
+
+.div11{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align:center;
+    font-size:x-large;
+    align-self:flex-end;
+}
+
+.div12{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align:center;
+    font-size:x-large;
+    order: 1;
+}
+
+.div13{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align:center;
+    font-size:x-large;
+    order: 2;
+}
+
+.div14{
+    width:200px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    text-align:center;
+    font-size:x-large;
+    order: -1;
 }
