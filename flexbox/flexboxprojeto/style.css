@@ -7,8 +7,23 @@ body{
     padding:0;
 }
 
+a, href{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
 span{
     font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+
+span:hover{
+    color: #555;
 }
 
 header{
@@ -152,4 +167,100 @@ nav li{
 .menu{
     display: flex;
     align-items: center;
+}
+
+#all{
+    display: flex;
+    justify-content: center;
+}
+
+#all section{
+    flex: 2;
+}
+
+#all aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold ;
+}
+
+.widget_title_bar{
+    width:50px;
+    height: 3px;
+    background-color:#36a9e1;
+    margin-top: 2px;
+}
+
+.widget_body{
+    margin: 0;
+}
+
+.squares{
+    background-color: #39aae1;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.area_squares{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+
+}
+
+.widget_body_contact{
+    border-top: 1px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
+    font-size: 15px;
+}
+.widget_body_contact_desc div{
+    margin-top: 12px;
+    border-bottom: 1px solid #bdb7b7cc;
+}
+
+.widget_body_contact_desc span{
+    font-weight: bold;
+}
+
+.icon_phone{
+    border-top: 1px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
+}
+.icon_phone img{
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.icon_email{
+    border-top: 1px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
+}
+
+.icon_email img{
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.icon_form{
+    border-top: 1px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
+}
+
+.icon_form img{
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
