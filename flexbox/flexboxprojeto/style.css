@@ -5,6 +5,7 @@
 body{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 a, href{
@@ -108,10 +109,12 @@ footer{
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
+
 }
 
 .footer_menu{
     display: flex;
+
 }
 
 .fm_1,
@@ -148,8 +151,77 @@ footer{
     padding: 10px;
 }
 
+.footer_area_item p{
+    font-size: 15px;
+    color: grey;
+}
+
 footer .widget_title_text{
     color: white;
+}
+
+.medicenter_text{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+    font-size: 14px;
+    color: grey;
+}
+
+.medicenter_number{
+    color: grey;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.medicenter_number a:hover{
+    color: red;
+}
+
+.medicenter_icons{
+    margin-top: 20px;
+}
+
+.medicenter_icons img{
+    max-width: 30px;
+    margin: 2px;
+}
+
+.medicenter_flex{
+    display: flex;
+}
+
+.widget_body p{
+    font-size: 14px;
+    color: grey;
+}
+.footer_post{
+    color: grey;
+    font-size: 14px;
+    margin:0px 5px;
+    border-bottom: 1px solid grey;
+}
+
+.description{
+    color: #5c5c5c;
+}
+
+.twitterlast{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_postime{
+    font-size: 11px;
+    color: #0079c7;
+    margin:10px 0px;
+}
+
+.footer_postime:hover{
+    color: red
 }
 
 .footer_copy{
@@ -375,3 +447,7 @@ footer .widget_title_text{
     margin-right: 5px;
     vertical-align: middle;
 }
+
+
+
+ 
