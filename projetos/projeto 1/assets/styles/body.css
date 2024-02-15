@@ -4,3 +4,13 @@
     box-sizing: border-box;
     max-width: 100%;  
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
